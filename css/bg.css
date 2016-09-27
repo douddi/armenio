@@ -38,7 +38,7 @@ background:url(../images/background/bg-subheader.jpg)top fixed;
 #section-about-us-3{background:#111; height:100%;}
 #section-about-us-3 .image-container{background:url(../images/background/bg-side-2.jpg);}
 #section-about-us-4 .image-container{background:url(../images/background/bg-side-3.jpg);}
-#section-welcome-5{background:url(../images/background/bg-14.jpg) top fixed;}
+#section-welcome-5{background:url(../images/background.jpg) top fixed;}
 #section-blog {background:url(../images/background/bg-5.jpg) top fixed;}
 #section-coming-soon{ background:none; position:absolute; min-height:100%; width:100%;z-index:1;}
 #section-describe{background:#202020;}
