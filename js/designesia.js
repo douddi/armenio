@@ -532,16 +532,16 @@ jQuery(document).ready(function () {
     });
 
 
-    jQuery(".text-slider").owlCarousel({
-        items: 1,
-        singleItem: true,
-        navigation: false,
-        pagination: false,
-        mouseDrag: false,
-        touchDrag: false,
-        autoPlay: 4000,
-        transitionStyle: "fade"
-    });
+    // jQuery(".text-slider").owlCarousel({
+    //     items: 1,
+    //     singleItem: true,
+    //     navigation: false,
+    //     pagination: false,
+    //     mouseDrag: false,
+    //     touchDrag: false,
+    //     autoPlay: 4000,
+    //     transitionStyle: "fade"
+    // });
 
     jQuery(".blog-slide").owlCarousel({
         items: 1,
