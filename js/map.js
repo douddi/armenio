@@ -4,17 +4,17 @@
                     function init() {
                         // Basic options for a simple Google Map
                         // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-                        var myLatlng = new google.maps.LatLng(-6.373091, 106.835175);
+                        var paris = new google.maps.LatLng(48.858096, 2.337937);
 
                         var mapOptions = {
                             // How zoomed in you want the map to start at (always required)
-                            zoom: 15,
+                            zoom: 3,
                             disableDefaultUI: true,
 							scrollwheel: false, 
 
                             // The latitude and longitude to center the map (always required)
 
-                            center: myLatlng, // New York
+                            center: paris, // paris
 
                             // How you would like to style the map. 
                             // This is where you would paste any style found on Snazzy Maps.
@@ -28,13 +28,18 @@
                         // Create the Google Map using out element and options defined above
                         var map = new google.maps.Map(mapElement, mapOptions);
 						
-                        var marker = new google.maps.Marker({
-                            position: myLatlng,
+                        var ParisMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(48.858096, 2.337937),
                             map: map,
 							icon: 'images/map-marker.png',
-                            title: 'Lorem Ipsum'
+                            title: 'Paris'
                         });
 						
-						
+						var NYMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(40.741905, -73.998944),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'New York'
+                        });
 
                     }

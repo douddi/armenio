@@ -74,7 +74,7 @@
                         <!-- logo begin -->
                         <div id="logo">
                             <a href="index.html">
-                                <img class="logo" src="images/logo.png" alt="">
+                                <img style="margin-top: 12px;" class="logo" src="images/logo.png" alt="" height="50" width="161">
                             </a>
                         </div>
                         <!-- logo close -->
@@ -88,9 +88,9 @@
                             <ul id="mainmenu">
                                 <li><a href="index.html">Accueil</a></li>
                                 <li><a href="#section-side-1">Notre histoire</a></li>
-                                <li><a href="services.html">Nos services</a></li>
-                                <li><a href="about.html">Nos projets</a></li>
-                                <li><a href="blog.html">Contact</a></li>
+                                <li><a href="#section-side-2">Nos services</a></li>
+                                <li><a href="#section-portfolio-2">Nos projets</a></li>
+                                <li><a href="#contact">Contact</a></li>
                                
                             </ul>
                         </nav>
@@ -417,12 +417,18 @@
 
         </div>
 
+        <div id="content" class="no-top no-bottom">
+            <section class="no-top no-bottom" aria-label="map-container">
+                <div id="map"></div>
+            </section>
+        </div>
+
         <!-- footer begin -->
-        <footer>
+        <footer id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="images/logo.png" class="logo-small" alt=""><br>
+                        <img src="images/logo.png" class="logo-small" alt="" height="50" width="161"><br>
                         Notre équipe est basée en France blablabla... 
                     </div>
 
@@ -483,6 +489,8 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/enquire.min.js"></script>
     <script src="js/designesia.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3"></script>
+    <script src="js/map.js"></script>
 
     <!-- SLIDER REVOLUTION SCRIPTS  -->
     <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>

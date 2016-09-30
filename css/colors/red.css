@@ -1,4 +1,4 @@
-/* default color: #ED4C4D */
+/* default color: #9d074b */
 .bg-color,
 section.call-to-action,
 #mainmenu li li a:hover,
@@ -46,7 +46,7 @@ section.call-to-action,
 .custom-show:after,.custom-close:after,
 #back-to-top
 {
-	background-color:#ED4C4D;
+	background-color:#9d074b;
 }
 
 .feature-box i,
@@ -88,7 +88,7 @@ address span strong,
 .de_form input[type="radio"]:checked + label:before,
 .de_form input[type="checkbox"]:checked + label:before
 {
-	color:#ED4C4D;
+	color:#9d074b;
 }
 
 .feature-box i,
@@ -111,7 +111,7 @@ address span strong,
 .form-transparent input[type=text]:focus, .form-transparent textarea:focus, .form-transparent input[type=email]:focus
 {
 
-	border-color:#ED4C4D;
+	border-color:#9d074b;
 }
 
 .box-fx .inner,
@@ -119,28 +119,28 @@ address span strong,
 .blog-list img,
 .arrow-up
 {
-	border-bottom-color:#ED4C4D;
+	border-bottom-color:#9d074b;
 }
 
 .arrow-down{
-	border-top-color:#ED4C4D;
+	border-top-color:#9d074b;
 }
 
 .callbacks_nav {
-	background-color:#ED4C4D;
+	background-color:#9d074b;
 }
 
 
 .de_tab .de_nav li span {
-border-top: 3px solid #ED4C4D;
+border-top: 3px solid #9d074b;
 }
 
 .feature-box-big-icon i:after {
-border-color: #ED4C4D transparent; /*same colour as the lower of the bubble's gradient*/
+border-color: #9d074b transparent; /*same colour as the lower of the bubble's gradient*/
 }
 
 .de_review li.active img{
-	border:solid 4px #ED4C4D;
+	border:solid 4px #9d074b;
 }
 
 
