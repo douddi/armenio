@@ -35,319 +35,320 @@
                             title: 'Paris'
                         });
 						
-						var NYMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(40.741905, -73.998944),
+						var DohaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(25.282094, 51.532267),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'New York'
+                            title: 'Doha'
                         });
 
-                        var BerlinMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(52.507629,13.1459634),
+                        var AlmatyMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(43.235150, 76.854893),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Berlin'
+                            title: 'Almaty'
                         });
 
-                        var PologneMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(51.8403064,14.6478556),
+                        var AmsterdamMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(52.372257, 4.892910),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Pologne'
+                            title: 'Amsterdam'
                         });
 
-                        var CannesMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(44.1503375,6.383235,8),
+                        var AnconaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(43.608416, 13.505440),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Cannes'
+                            title: 'Ancona'
                         });
 
-                        var FlorenceMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(41.9102415,12.395913,11),
+                        var AspenMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(39.191380, -106.821475),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Florence'
+                            title: 'Aspen'
                         });
 
-                        var MilanMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(45.4628328,9.1076922,12),
+                        var AtheneMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(37.986520, 23.727845),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Milan'
+                            title: 'Athene'
                         });
 
-                        var NaplesMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(40.8540942,14.1765621,12),
+                        var AtlantaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(33.751147, -84.387515),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Naples'
+                            title: 'Atlanta'
                         });
 
-                        var PalermeMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(38.1405996,13.2872482,12),
+                        var AucklandMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(-36.869286, 174.755574),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Palerme'
+                            title: 'Auckland'
                         });
 
-                        var VeniseMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(45.4058031,12.1015568,10),
+                        var AstanaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(51.140719, 71.463545),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Venise'
+                            title: 'Astana'
                         });
 
-                        var LimogesMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(45.8587393,1.1618575,12),
+                        var CentriaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(63.3533527,22.5498405,8.05),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Limoges'
+                            title: 'Centria'
+                        });
+
+                        var DubaiMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(25.203648, 55.266469),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Dubai'
                         });
 
                         var LondresMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(51.5287718,-0.241682,11),
+                            position: new google.maps.LatLng(51.507664, -0.127181),
                             map: map,
                             icon: 'images/map-marker.png',
                             title: 'Londres'
                         });
 
-                        var GlasgowMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(55.8555733,-4.372205,11),
+                        var RiyadhMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(24.716200, 46.709879),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Glasgow'
+                            title: 'Riyadh'
                         });
 
-                        var UkraineMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(48.3029685,26.6949791,6),
+                        var TokyoMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(35.708563, 139.732181),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Ukraine'
+                            title: 'Tokyo'
                         });
 
-                        var BielorussieMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(53.7633506,27.3021199,16),
+                        var JeddahMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(21.321383, 39.205748),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Bielorussie'
+                            title: 'Jeddah'
                         });
 
-                        var TurquieMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(38.7566017,30.5200149,13),
+                        var MonacoMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(43.738597, 7.424413),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Turquie'
+                            title: 'Monaco'
                         });
 
-                        var ArabiesaouditeMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(23.879839,36.0787804,5),
+                        var PuertoBanusMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(36.490480, -4.949194),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Arabiesaoudite'
-                        });
-
-                        var IsraelMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(31.7964453,35.1053185,12),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Israel'
-                        });
-
-                        var MoscouMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(55.7498597,37.3523159,10),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Moscou'
-                        });
-
-                        var RussieMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(58.2418663,63.0379874,9),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Russie'
-                        });
-
-                        var ChineMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(35.7311289,107.5784659,12),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Chine'
-                        });
-
-                        var ChineMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(35.6991933,118.5761506,10),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Chine'
+                            title: 'PuertoBanus'
                         });
 
                         var ShanghaiMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(31.2243085,120.9162824,9),
+                            position: new google.maps.LatLng(31.222137, 121.475170),
                             map: map,
                             icon: 'images/map-marker.png',
                             title: 'Shanghai'
                         });
 
+                        var ShenzhenMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(22.529732, 114.055242),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Shenzhen'
+                        });
+
+                        var BakuMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(40.441430, 49.839342),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Baku'
+                        });
+
+                        var BalharborMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(25.891807, -80.125294),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Balharbor'
+                        });
+
+                        var BangkokMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(13.812523, 100.539538),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Bangkok'
+                        });
+
+                        var BarceloneMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(41.382920, 2.177862),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Barcelone'
+                        });
+
+                        var BeijingMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(39.902210, 116.399828),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Beijing'
+                        });
+
+                        var LasVegasMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(36.163733, -115.138617),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Las vegas'
+                        });
+
+                        var NewYorkMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(40.699064, -73.973917),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'New york'
+                        });
+
+                        var LosangelesMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(34.038391, -118.245601),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'losangeles'
+                        });
+
+                        var BocaratonMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(26.367019, -80.129740),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Bocaraton'
+                        });
+
+                        var BeyrouthMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(33.893057, 35.499312),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Beyrouth'
+                        });
+
+                         var SaopoloMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(-23.565147, -46.640656),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Saopolo'
+                        });
+
+                        var BruxellesMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(50.853437, 4.352042),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Bruxelles'
+                        });
+
+                        var CannesMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(43.551885, 7.022848),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Cannes'
+                        });
+
+                        var CapriMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(40.552363, 14.222647),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Capri'
+                        });
+
+                        var ChengduMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(30.588730, 104.065924),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Chengdu'
+                        });
+
                         var TaiwanMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(23.5420589,118.7767746,7),
+                            position: new google.maps.LatLng(23.850893, 120.987467),
                             map: map,
                             icon: 'images/map-marker.png',
                             title: 'Taiwan'
                         });
 
-                        var ChineMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(25.9085089,116.045462,7),
+                        var CortinaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(46.537960, 12.135101),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Chine'
+                            title: 'Cortina'
                         });
 
-                        var PekinMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(39.9390731,116.11727,10),
+                        var DalianMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(38.912143, 121.594268),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Pekin'
+                            title: 'Dalian'
+                        });
+
+                        var CourchevelMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(45.414569, 6.634808),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Courchevel'
+                        });
+
+                        var DusseldorfMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(51.222892, 6.783444),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Dusseldorf'
+                        });
+
+                        var EkaterinburgMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(56.828092, 60.584889),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Ekaterinburg'
+                        });
+
+                        var NewportbeachMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(33.624512, -117.930307),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Newportbeach'
+                        });
+
+                        var FlorenceMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(43.772748, 11.257102),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Florence'
+                        });
+
+                        var FrankfortMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(41.493697, -87.847469),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Frankfort'
                         });
 
                         var SeoulMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(37.5652894,126.8494646,11),
+                            position: new google.maps.LatLng(37.557580, 126.985037),
                             map: map,
                             icon: 'images/map-marker.png',
                             title: 'Seoul'
                         });
 
-                        var CoréeMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(35.1768202,126.7737597,12),
+                         var FukuokaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(33.573767, 130.357838),
                             map: map,
                             icon: 'images/map-marker.png',
-                            title: 'Corée'
+                            title: 'Fukuoka'
                         });
 
-                        var JaponMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(38.270364,140.7968598,12),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Japon'
-                        });
-
-                        var japonMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(37.8492488,138.8855046,11),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'japon'
-                        });
-
-                        var JaponMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(35.6693878,139.601295,11),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Japon'
-                        });
-
-                        var JaponMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(35.1681151,136.8765805,13),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Japon'
-                        });
-
-                        var JaponMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(35.0061653,135.7259305,13),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Japon'
-                        });
-
-                        var ThailandeMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(13.7251097,100.3529128,10),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Thailande'
-                        });
-
-                        var MalaisieMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(5.3543299,100.2227898,11),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Malaisie'
-                        });
-
-                        var SingapourMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(1.3459084,103.6855038,11),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Singapour'
-                        });
-
-                        var JakartaMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(-6.2293868,106.6894307,11),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Jakarta'
-                        });
-
-                        var ChicagoMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(41.8339043,-88.0123433,10),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'chicago'
-                        });
-
-                        var OklahomaMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(35.2928355,-100.9603238,7),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Oklahoma'
-                        });
-
-                        var WashingtonMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(38.8995322,-77.1546518,11),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Washington'
-                        });
-
-                        var CarolinedusudMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(433.6093683,-83.1908964,7),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'carolinedusud'
-                        });
-
-                        var LosangelesMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(43.5466726,-112.264572,4.11),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Losangeles'
-                        });
-
-                        var SanfranciscoMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(37.757815,-122.5076403,12),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Sanfrancisco'
-                        });
-
-                        var SacramentoMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(38.5617256,-121.5829978,11),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Sacramento'
-                        });
-
-                        var MiamiMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(25.7824618,-80.301044,12),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'Miami'
-                        });
-
-                        var MexicoMarker = new google.maps.Marker({
-                            position: new google.maps.LatLng(19.3910039,-99.2836997,11),
-                            map: map,
-                            icon: 'images/map-marker.png',
-                            title: 'mexico'
-                        });
 
                     }
