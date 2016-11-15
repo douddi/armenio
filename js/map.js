@@ -350,5 +350,273 @@
                             title: 'Fukuoka'
                         });
 
+                         var GeneveMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(46.199878, 6.145009),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Geneve'
+                        });
+
+                         var GinzaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(35.671292, 139.765366),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Ginza'
+                        });
+
+                         var GranvilleMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(48.836371, -1.590032),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Granville'
+                        });
+
+                         var Guamarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(13.427630, 144.751075),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Guam'
+                        });
+
+                         var GangzhouMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(23.082403, 113.275869),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Gangzhou'
+                        });
+
+                         var MoscouMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(55.736332, 37.637963),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Moscou'
+                        });
+
+                         var HambourgMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(53.545191, 10.002639),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Hambourg'
+                        });
+
+                         var OsakaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(34.691982, 135.502476),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Osaka'
+                        });
+
+                         var HoustonMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(29.739405, -95.371118),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Houston'
+                        });
+
+                         var SingapourMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(1.344192, 103.864033),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Singapour'
+                        });
+
+                         var JakartaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(-6.226313, 106.850107),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Jakarta'
+                        });
+
+                         var KoweitMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(29.312907, 47.516312),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Koweit'
+                        });
+
+                         var KyotoMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(35.009095, 135.767683),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Kyoto'
+                        });
+
+                         var MiamiMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(25.768086, -80.203883),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Miami'
+                        });
+
+                         var MelbourneMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(-37.816325, 144.965195),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Melbourne'
+                        });
+
+                         var MexicoMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(19.410975, -99.143042),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Mexico'
+                        });
+
+                         var CasablancaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(33.585936, -7.591168),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Casablanca'
+                        });
+
+                         var PanamaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(8.799343, -79.899863),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Panama'
+                        });
+
+                         var SydneyMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(-33.890163, 151.188735),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Sydney'
+                        });
+
+                         var TelavivMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(32.091943, 34.778018),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Telaviv'
+                        });
+
+                         var VeniseMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(45.434014, 12.328176),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Venise'
+                        });
+
+                         var VienneMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(45.523881, 4.875009),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Vienne'
+                        });
+
+                         var VarsovieMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(52.224443, 21.022048),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Varsovie'
+                        });
+
+                         var ManchesterMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(53.477946, -2.240410),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Manchester'
+                        });
+
+                         var ZurichMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(47.380921, 8.545639),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Zurich'
+                        });
+
+                         var YokohamaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(35.445217, 139.642644),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Yokohama'
+                        });
+
+                         var MarseilleMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(43.289302, 5.372858),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Marseille'
+                        });
+
+                         var SttropezMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(43.270112, 6.642542),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Sttropez'
+                        });
+
+                         var ShenyangMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(41.802943, 123.479037),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Shenyang'
+                        });
+
+                         var PortofinoMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(44.303759, 9.208032),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Portofino'
+                        });
+
+                         var NewdelhiMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(28.621891, 77.217902),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Newdelhi'
+                        });
+
+                         var ChicagoMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(41.867405, -87.638780),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Chicago'
+                        });
+
+                         var AtlantaMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(33.739089, -84.382161),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Atlanta'
+                        });
+
+                         var MontrealMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(45.499574, -73.568226),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Montreal'
+                        });
+
+                         var MarrakechMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(31.621448, -7.981763),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Marrakech'
+                        });
+
+                         var HongkongMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(33.739089, -84.382161),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Hongkong'
+                        });
+
+                         var LisbonneMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(38.725930, -9.145100),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Lisbonne'
+                        });
+
+                         var MadridMarker = new google.maps.Marker({
+                            position: new google.maps.LatLng(40.417612, -3.702616),
+                            map: map,
+                            icon: 'images/map-marker.png',
+                            title: 'Madrid'
+                        });
+
+
+
 
                     }
